@@ -1,4 +1,4 @@
-# Soshoku
+# Sōshoku 装飾
 Dotfiles for my custom Hyprland theme. Color palette based on the current wallpaper.
 
 ![Soshoku theme](soshoku.png)
