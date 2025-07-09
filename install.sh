@@ -9,13 +9,13 @@ ascii="               _           _
 
 echo -e "\n$ascii\n"
 
-ln -sf $(pwd)/alacritty ~/.config/alacritty
-ln -sf $(pwd)/hypr ~/.config/hypr
-ln -sf $(pwd)/nvim ~/.config/nvim
-ln -sf $(pwd)/starship/starship.toml ~/.config
-ln -sf $(pwd)/waybar ~/.config/waybar
-ln -sf $(pwd)/wofi ~/.config/wofi
-ln -sf $(pwd)/zsh/.zshrc ~
+ln -sf $(pwd)/config/alacritty ~/.config/alacritty
+ln -sf $(pwd)/config/hypr ~/.config/hypr
+ln -sf $(pwd)/config/nvim ~/.config/nvim
+ln -sf $(pwd)/config/starship/starship.toml ~/.config
+ln -sf $(pwd)/config/waybar ~/.config/waybar
+ln -sf $(pwd)/config/wofi ~/.config/wofi
+ln -sf $(pwd)/config/zsh/.zshrc ~
 
 # JetBrainsMono Nerd Font
 curl -L -o /tmp/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip
