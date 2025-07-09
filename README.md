@@ -15,7 +15,7 @@ Dotfiles for my custom Hyprland theme. Color palette based on the current wallpa
 
 **Statusbar:** Waybar
 
-**Wallpaper:** (wallhaven.cc)[https://wallhaven.cc/w/1q83qg]
+**Wallpaper:** [wallhaven.cc](https://wallhaven.cc/w/1q83qg)
 
 ## Installation
 
