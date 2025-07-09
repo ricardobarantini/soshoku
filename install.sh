@@ -15,4 +15,4 @@ ln -sf $(pwd)/nvim ~/.config/nvim
 ln -sf $(pwd)/starship/starship.toml ~/.config
 ln -sf $(pwd)/waybar ~/.config/waybar
 ln -sf $(pwd)/wofi ~/.config/wofi
-ln -sf $(pwd)/zsh/.zshrc ~/.config
+ln -sf $(pwd)/zsh/.zshrc ~
