@@ -9,11 +9,11 @@ Dotfiles for my custom Hyprland theme. Color palette based on the current wallpa
 
 **WM:** Hyprland
 
-**Terminal:** Alacritty
+**Terminal:** Alacritty (Nord theme)
 
-**Launcher:** Wofi
+**Launcher:** Wofi (Dracula theme)
 
-**Statusbar:** Waybar
+**Statusbar:** Waybar (Custom modules and color palette)
 
 **Wallpaper:** [wallhaven.cc](https://wallhaven.cc/w/1q83qg)
 
