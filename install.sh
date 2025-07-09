@@ -11,12 +11,12 @@ echo -e "\n$ascii\n"
 
 soshoku=~/.local/share/soshoku
 
-ln -sf $soshoku/config/alacritty ~/.config/alacritty
-ln -sf $soshoku/config/hypr ~/.config/hypr
-ln -sf $soshoku/config/nvim ~/.config/nvim
+ln -sf $soshoku/config/alacritty ~/.config
+ln -sf $soshoku/config/hypr ~/.config
+ln -sf $soshoku/config/nvim ~/.config
 ln -sf $soshoku/config/starship/starship.toml ~/.config
-ln -sf $soshoku/config/waybar ~/.config/waybar
-ln -sf $soshoku/config/wofi ~/.config/wofi
+ln -sf $soshoku/config/waybar ~/.config
+ln -sf $soshoku/config/wofi ~/.config
 ln -sf $soshoku/config/zsh/.zshrc ~
 ln -sf $soshoku/config/zsh/.zprofile ~
 
