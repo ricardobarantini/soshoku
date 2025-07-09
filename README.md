@@ -17,11 +17,10 @@ Dotfiles for my custom Hyprland theme. Color palette based on the current wallpa
 
 **Wallpaper:** [wallhaven.cc](https://wallhaven.cc/w/1q83qg)
 
+**Fonts:** JetBrainsMono Nerd Font
+
 ## Installation
 
 ```bash
-git clone https://github.com/ricardobarantini/soshoku.git ~/local/share/soshoku
-cd ~/.local/share/soshoku
-sudo chmod +x install.sh
-bash install.sh
+eval "$(wget -qO- https://raw.githubusercontent.com/ricardobarantini/soshoku/refs/heads/main/boot.sh)"
 ```
