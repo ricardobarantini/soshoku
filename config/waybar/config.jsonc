@@ -66,9 +66,12 @@
     },
     "network": {
         "interval": 10,
+        "interface": "enp5s0",
         "format-ethernet": "󰈀 {ifname}",
-        "format-disconnect": "",
+        "format-linked": " {ifname}",
         "tooltip-format-ethernet": "󰛴 {bandwidthDownBytes}  󰛶 {bandwidthUpBytes}",
+        "tooltip-format-linked": "No connection",
+        "max-length": 50,
         "on-click": "alacritty --title nmtui -e nmtui"
     },
     "custom/packages": {
