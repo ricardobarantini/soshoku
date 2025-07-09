@@ -18,6 +18,7 @@ ln -sf $soshoku/config/starship/starship.toml ~/.config
 ln -sf $soshoku/config/waybar ~/.config/waybar
 ln -sf $soshoku/config/wofi ~/.config/wofi
 ln -sf $soshoku/config/zsh/.zshrc ~
+ln -sf $soshoku/config/zsh/.zprofile ~
 
 # Copy .desktop files
 mkdir -p ~/.local/share/applications
