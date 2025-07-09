@@ -1,0 +1,7 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/nord.toml",
+  "~/.config/alacritty/font.toml",
+  "~/.config/alacritty/shared.toml"
+]
+

@@ -1,0 +1,138 @@
+@define-color primary rgba(105, 51, 174, 0.9);
+@define-color secondary #16FBDC;
+@define-color accent #F1D800;
+@define-color accent-shade-1 #DBC500;
+@define-color accent-tint-1 #FFF27E;
+@define-color text-color #F8F8FF;
+@define-color black #313131;
+
+* {
+  font-family: 'JetBrainsMono Nerd Font';
+  color: @text-color;
+}
+
+#waybar {
+  background: @primary;
+  margin-top: 10px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  padding: 8px 15px;
+}
+
+#custom-launcher {
+  font-size: 25px;
+  margin: 0 15px;
+}
+
+#custom-launcher:hover {
+  color: @accent;
+  transition: color 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  box-shadow: none;
+  border-color: transparent;
+  text-shadow: none;
+}
+
+#workspaces button:hover * {
+  color: @accent;
+  background: transparent;
+}
+
+#workspaces button.active * {
+  color: @accent;
+}
+
+#cpu {
+  border-radius: 25px 0 0 25px;
+}
+
+#network {
+  border-radius: 0 25px 25px 0;
+}
+
+#cpu, #memory, #disk, #network {
+  padding: 0 10px;
+}
+
+#tray {
+  margin-left: 10px;
+}
+
+#tray menu {
+  background: @primary;
+}
+
+#wireplumber {}
+
+#network {}
+
+#clock {}
+
+#cpu,
+#memory,
+#disk,
+#wireplumber,
+#network,
+#clock {
+  background: @accent;
+  color: @black;
+}
+
+#wireplumber, #clock {
+  padding: 0 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#network:hover,
+#wireplumber:hover,
+#clock:hover {
+  background: @accent-shade-1;
+}
+
+#custom-lock, #custom-reboot, #custom-power {
+  margin: 0 15px;
+}
+
+#packages {
+  background: @accent-tint-1;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#custom-packages {
+  color: @black;
+  background: @accent;
+  padding: 0 12px;
+  border-radius: 25px;
+}
+
+#custom-docker {
+  background: #0db7ed;
+}
+
+#custom-php {
+  background: #4f5b93;
+}
+
+#custom-node {
+  background: #215732;
+}
+
+#custom-docker,
+#custom-php,
+#custom-node {
+  margin: 5px;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 25px;
+}
