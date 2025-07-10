@@ -126,8 +126,8 @@
         "on-click": "pavucontrol"
     },
     "clock": {
-        "format": "{:%d %b %H:%M}",
-        "format-alt": "{:%d %B %H:%M}",
+        "format": "{:%a %d %b %H:%M}",
+        "format-alt": "{:%A %d %B %H:%M}",
         "timezone": "America/Sao_Paulo",
         "tooltip": false
     },
