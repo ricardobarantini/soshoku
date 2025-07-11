@@ -1,5 +1,5 @@
 # Sōshoku 装飾
-Dotfiles for my custom Hyprland theme. Color palette based on the current wallpaper.
+Dotfiles for my custom Hyprland theme based on [Synthwave 84](https://github.com/robb0wen/synthwave-vscode) colors.
 
 ![Soshoku theme](soshoku.png)
 
@@ -9,11 +9,11 @@ Dotfiles for my custom Hyprland theme. Color palette based on the current wallpa
 
 **WM:** Hyprland
 
-**Terminal:** Alacritty (Nord theme)
+**Terminal:** Alacritty
 
-**Launcher:** Wofi (Dracula theme)
+**Launcher:** Wofi
 
-**Statusbar:** Waybar (Custom modules and color palette)
+**Statusbar:** Waybar
 
 **Wallpaper:** [wallhaven.cc](https://wallhaven.cc/w/1q83qg)
 
