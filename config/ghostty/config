@@ -2,4 +2,5 @@ auto-update = download
 desktop-notifications = false
 font-family = JetBrainsMono Nerd Font
 background-opacity = 0.9
-theme = synthwave-everything
+theme = catppuccin-frappe
+confirm-close-surface = false
