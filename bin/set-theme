@@ -1,10 +1,18 @@
 #!/bin/bash
 
 CURRENT_THEME=~/.config/soshoku/current/theme
+LIST_THEMES=~/.config/soshoku/themes
+SELECTED_THEME=$1
 
+if [ ! $(ls "$LIST_THEMES" | grep "$SELECTED_THEME") ]; then
+  echo "Invalid theme. Current options: catppuccin, synthwave"
+  exit
+fi
+
+rm -fr ~/.config/soshoku/current
 mkdir -p ~/.config/soshoku/current
 
-ln -snf ~/.local/share/soshoku/themes/$1 $CURRENT_THEME
+ln -snf ~/.local/share/soshoku/themes/"$SELECTED_THEME" $CURRENT_THEME
 
 # Mako
 mkdir -p ~/.config/mako
@@ -20,4 +28,4 @@ ln -snf $CURRENT_THEME/neovim.lua ~/.config/nvim/lua/plugins/theme.lua
 pkill -SIGUSR2 waybar
 makoctl reload
 hyprctl reload >/dev/null
-
+hyprctl hyprpaper reload ,"~/.config/soshoku/current/theme/backgrounds/wallpaper.jpg"
