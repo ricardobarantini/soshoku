@@ -5,12 +5,12 @@ Dotfiles for my custom Hyprland theme based on [Synthwave 84](https://github.com
 
 <details>
   <summary>Catppuccin</summary>
-  ![Catppuccin](art/catppuccin.png)
+  <img src="art/catppuccin.png"/>
 </details>
 
 <details>
   <summary>Synthwave</summary>
-  ![Soshoku theme](art/soshoku.png)
+  <img src="art/synthwave.png"/>
 </details>
 
 ## Software specs
