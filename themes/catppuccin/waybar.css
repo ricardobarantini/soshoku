@@ -1,7 +1,45 @@
-@define-color primary rgba(105, 51, 174, 0.9);
-@define-color secondary #16FBDC;
-@define-color accent #F1D800;
-@define-color accent-shade-1 #DBC500;
-@define-color accent-tint-1 #FFF27E;
-@define-color text-color #F8F8FF;
-@define-color black #313131;
+@import "./palettes/frappe.css";
+
+@define-color bar-bg @base-transparency;
+@define-color text-color @text;
+@define-color dark-text-color @crust;
+
+@define-color launcher-color-hover @mauve;
+
+@define-color workspaces-color-hover @mauve;
+
+@define-color cpu-bg @red;
+@define-color cpu-bg-hover @maroon;
+
+@define-color memory-bg @red;
+@define-color memory-bg-hover @maroon;
+
+@define-color disk-bg @red;
+@define-color disk-bg-hover @maroon;
+
+@define-color network-bg @red;
+@define-color network-bg-hover @maroon;
+
+@define-color tray-menu-bg @base-transparency;
+
+@define-color packages-text-color @crust;
+@define-color packages-bg @sapphire;
+@define-color packages-open-bg @sky;
+
+@define-color docker-bg #0db7ed;
+@define-color docker-border-color #0ca5d5;
+@define-color docker-text-color #e7f8fd;
+
+@define-color php-bg #8892be;
+@define-color php-border-color #7a83ab;
+@define-color php-text-color #f3f4f9;
+
+@define-color node-bg #215732;
+@define-color node-border-color #1e4e2d;
+@define-color node-text-color #e9eeeb;
+
+@define-color wireplumber-bg @peach;
+@define-color wireplumber-bg-hover @yellow;
+
+@define-color clock-bg @green;
+@define-color clock-bg-hover @teal;
