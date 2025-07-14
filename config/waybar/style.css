@@ -6,7 +6,7 @@
 }
 
 #waybar {
-  background: @primary;
+  background: @bar-bg;
   margin-top: 10px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 #custom-launcher:hover {
-  color: @accent;
+  color: @launcher-color-hover;
   transition: color 0.3s ease-in-out;
 }
 
@@ -34,20 +34,46 @@
 }
 
 #workspaces button:hover * {
-  color: @accent;
+  color: @workspaces-color-hover;
   background: transparent;
 }
 
 #workspaces button.active * {
-  color: @accent;
+  color: @workspaces-color-hover;
 }
 
 #cpu {
   border-radius: 25px 0 0 25px;
+  background: @cpu-bg;
+}
+
+#cpu:hover {
+  background: @cpu-bg-hover;
+}
+
+#memory {
+  background: @memory-bg;
+}
+
+#memory:hover {
+  background: @memory-bg-hover;
+}
+
+#disk {
+  background: @disk-bg;
+}
+
+#disk:hover {
+  background: @disk-bg-hover;
 }
 
 #network {
   border-radius: 0 25px 25px 0;
+  background: @network-bg;
+}
+
+#network:hover {
+  background: @network-bg-hover;
 }
 
 #cpu, #memory, #disk, #network {
@@ -59,14 +85,24 @@
 }
 
 #tray menu {
-  background: @primary;
+  background: @tray-menu-bg;
 }
 
-#wireplumber {}
+#wireplumber {
+  background: @wireplumber-bg;
+}
 
-#network {}
+#wireplumber:hover {
+  background: @wireplumber-bg-hover;
+}
 
-#clock {}
+#clock {
+  background: @clock-bg;
+}
+
+#clock:hover {
+  background: @clock-bg-hover;
+}
 
 #cpu,
 #memory,
@@ -74,8 +110,7 @@
 #wireplumber,
 #network,
 #clock {
-  background: @accent;
-  color: @black;
+  color: @dark-text-color;
 }
 
 #wireplumber, #clock {
@@ -84,42 +119,39 @@
   border-radius: 25px;
 }
 
-#cpu:hover,
-#memory:hover,
-#disk:hover,
-#network:hover,
-#wireplumber:hover,
-#clock:hover {
-  background: @accent-shade-1;
-}
-
 #custom-lock, #custom-reboot, #custom-power {
   margin: 0 15px;
 }
 
 #packages {
-  background: @accent-tint-1;
+  background: @packages-open-bg;
   border-radius: 20px;
   margin-left: 10px;
 }
 
 #custom-packages {
-  color: @black;
-  background: @accent;
+  background: @packages-bg;
+  color: @packages-text-color;
   padding: 0 12px;
   border-radius: 25px;
 }
 
 #custom-docker {
-  background: #0db7ed;
+  background: @docker-bg;
+  border-color: @docker-border-color;
+  color: @docker-text-color;
 }
 
 #custom-php {
-  background: #4f5b93;
+  background: @php-bg;
+  border-color: @php-border-color;
+  color: @php-text-color;
 }
 
 #custom-node {
-  background: #215732;
+  background: @node-bg;
+  border-color: @node-border-color;
+  color: @node-text-color;
 }
 
 #custom-docker,
@@ -129,4 +161,6 @@
   font-size: 12px;
   padding: 3px 8px;
   border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
 }
