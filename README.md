@@ -19,13 +19,11 @@ Dotfiles for my custom Hyprland theme based on [Synthwave 84](https://github.com
 
 **WM:** Hyprland
 
-**Terminal:** Alacritty
+**Terminal:** Ghostty
 
 **Launcher:** Wofi
 
 **Statusbar:** Waybar
-
-**Wallpaper:** [wallhaven.cc](https://wallhaven.cc/w/1q83qg)
 
 **Fonts:** JetBrainsMono Nerd Font
 
