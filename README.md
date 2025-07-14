@@ -1,7 +1,17 @@
 # Sōshoku 装飾
 Dotfiles for my custom Hyprland theme based on [Synthwave 84](https://github.com/robb0wen/synthwave-vscode) colors. This script is heavily inspired and based on [Omarchy](https://github.com/basecamp/omarchy/).
 
-![Soshoku theme](soshoku.png)
+## Themes
+
+<details>
+  <summary>Catppuccin</summary>
+  ![Catppuccin](art/catppuccin.png)
+</details>
+
+<details>
+  <summary>Synthwave</summary>
+  ![Soshoku theme](art/soshoku.png)
+</details>
 
 ## Software specs
 
