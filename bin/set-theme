@@ -18,11 +18,11 @@ ln -snf ~/.local/share/soshoku/themes/"$SELECTED_THEME" $CURRENT_THEME
 mkdir -p ~/.config/mako
 ln -snf $CURRENT_THEME/mako.ini ~/.config/mako/config
 
-# Wofi
-ln -snf $CURRENT_THEME/wofi.css ~/.config/wofi/style.css
-
 # Neovim
 ln -snf $CURRENT_THEME/neovim.lua ~/.config/nvim/lua/plugins/theme.lua
+
+# Rofi
+ln -snf $CURRENT_THEME/rofi.rasi ~/.config/rofi/theme.rasi
 
 # Restart for new theme
 pkill -SIGUSR2 waybar

@@ -1,0 +1,16 @@
+configuration {
+  modi: "drun";
+  case-sensitive: false;
+  show-icons: true;
+  icon-theme: "Numix-Circle";
+
+  drun-display-format: "{name}";
+  drun-use-desktop-cache: false;
+  drun-reload-desktop-cache: false;
+  drun-history: true;
+
+  /* Key bindings */
+  kb-cancel: "Escape";
+}
+
+@theme "~/.config/rofi/theme.rasi"

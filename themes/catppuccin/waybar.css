@@ -1,4 +1,4 @@
-@import "./palettes/frappe.css";
+@import "./palettes/waybar/frappe.css";
 
 @define-color bar-bg @base-transparency;
 @define-color text-color @text;
