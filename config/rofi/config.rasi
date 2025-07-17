@@ -3,6 +3,7 @@ configuration {
   case-sensitive: false;
   show-icons: true;
   icon-theme: "Numix-Circle";
+  font: "JetBrainsMono Nerd Font 12";
 
   drun-display-format: "{name}";
   drun-use-desktop-cache: false;

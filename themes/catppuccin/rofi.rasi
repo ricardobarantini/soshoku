@@ -1,7 +1,7 @@
-// @import "catppuccin-latte"
+// @import "~/.config/soshoku/current/theme/palettes/rofi/catppuccin-latte"
 @import "~/.config/soshoku/current/theme/palettes/rofi/catppuccin-frappe"
-// @import "catppuccin-macchiato"
-// @import "catppuccin-mocha"
+// @import "~/.config/soshoku/current/theme/palettes/rofi/catppuccin-macchiato"
+// @import "~/.config/soshoku/current/theme/palettes/rofi/catppuccin-mocha"
 
 * {
   selected-active-foreground:  @background;
@@ -30,13 +30,15 @@
   normal-foreground:           @foreground;
   alternate-urgent-foreground: @red;
   alternate-active-foreground: @blue;
-
 }
 element {
-    padding: 1px ;
+    padding: 5px ;
     cursor:  pointer;
     spacing: 5px ;
     border:  0;
+}
+element selected {
+  border-radius: 5px;
 }
 element normal.normal {
     background-color: @normal-background;
@@ -79,10 +81,11 @@ element-text {
     cursor:           inherit;
     highlight:        inherit;
     text-color:       inherit;
+    vertical-align:   0.5;
 }
 element-icon {
     background-color: transparent;
-    size:             1.0000em ;
+    size:             1.5000em ;
     cursor:           inherit;
     text-color:       inherit;
 }
@@ -90,6 +93,7 @@ window {
     padding:          5;
     background-color: @background;
     border:           1;
+    width:            600px;
 }
 mainbox {
     padding: 0;
@@ -105,11 +109,10 @@ textbox {
 }
 listview {
     padding:      2px 0px 0px ;
-    scrollbar:    true;
-    border-color: @separatorcolor;
+    scrollbar:    false;
     spacing:      2px ;
     fixed-height: 0;
-    border:       2px dash 0px 0px ;
+    lines:        9;
 }
 scrollbar {
     width:        4px ;
@@ -148,7 +151,7 @@ inputbar {
     padding:    1px ;
     spacing:    0px ;
     text-color: @normal-foreground;
-    children:   [ "prompt","textbox-prompt-colon","entry","num-filtered-rows","textbox-num-sep","num-rows","case-indicator" ];
+    children:   [ "entry","num-filtered-rows","textbox-num-sep","num-rows","case-indicator" ];
 }
 case-indicator {
     spacing:    0;
