@@ -3,8 +3,7 @@ return {
   opts = {
     formatters_by_ft = {
       html = { "html_beautify" },
-      php = { "php_cs_fixer" },
-      json = { "yq" },
+      php = { "pint", "php_cs_fixer" },
     },
   },
 }
