@@ -1,7 +1,7 @@
 @import "../soshoku/current/theme/waybar.css";
 
 * {
-  font-family: 'JetBrainsMono Nerd Font';
+  font-family: 'CaskaydiaCove NFP';
   color: @text-color;
 }
 
