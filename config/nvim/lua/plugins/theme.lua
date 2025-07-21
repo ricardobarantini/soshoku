@@ -1,1 +1,0 @@
-/home/ricardo/.config/soshoku/current/theme/neovim.lua

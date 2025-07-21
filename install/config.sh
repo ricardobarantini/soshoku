@@ -1,7 +1,6 @@
 # ln -snf $SOSHOKU_DIR/config/alacritty ~/.config
 ln -snf "$SOSHOKU_DIR"/config/ghostty ~/.config
 ln -snf "$SOSHOKU_DIR"/config/hypr ~/.config
-ln -snf "$SOSHOKU_DIR"/config/nvim ~/.config
 ln -snf "$SOSHOKU_DIR"/config/rofi ~/.config
 ln -snf "$SOSHOKU_DIR"/config/starship.toml ~/.config
 ln -snf "$SOSHOKU_DIR"/config/waybar ~/.config
